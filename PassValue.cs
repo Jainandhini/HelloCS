@@ -12,9 +12,11 @@ namespace basics
             a=a*5;
             b=b*10;
         }
-        public void PassByOutputParam(out int a){
+        public void PassByOutputParam(out int? a){
             Console.WriteLine("PassByOutputParam Values modified by output param ");
-            a=1000;
+            a=new int?();
+            //nullable coalesce
+            a=a??1000;
         }
         public void PassValueDemo(){
             Console.WriteLine("*********PassValueDemo*************");
@@ -22,7 +24,8 @@ namespace basics
             int a=5,b=10;
             PassByPointer(ref a,ref b);
             Console.WriteLine(@"After a: {0} b:{1}",a,b);
-            int x=0;
+            //nullable int
+            int? x=null;
             Console.WriteLine(@"PassByOutputParam 
              Before x: {0}",x);
             PassByOutputParam(out x);

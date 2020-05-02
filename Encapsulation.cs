@@ -36,6 +36,7 @@ namespace basics
         }
         public void EncapsulationDemo(){
                 int eNo=GetNewEmpNum();
+                Console.WriteLine("***************Encapsulatino demo*********");
                 Console.WriteLine("Trying to insert employee details with correct emp ID");
                 setValues(eNo,"jai","sri");
 
