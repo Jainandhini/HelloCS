@@ -6,7 +6,7 @@ namespace basics
     {
         static void Main(string[] args)
         {
-            
+            ///*
            //prog 1
            Hello h=new Hello();
             h.HelloDemo();  
@@ -42,7 +42,12 @@ namespace basics
         Console.Write(" Press any key to continue, q to quit\n");
             if( Console.ReadLine()=="q"){
            return;}
-        
+       // */
+        //prog 5
+        ArrayDemo ad=new ArrayDemo();
+        Console.Write(" Press any key to continue, q to quit\n");
+            if( Console.ReadLine()=="q"){
+           return;}
         }
     }
 }
