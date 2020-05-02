@@ -20,6 +20,28 @@ namespace basics
             Console.Write(" Press any key to continue, q to quit\n");
             if( Console.ReadLine()=="q"){
            return;}
+
+        //prog 3
+        TypeConversion tc=new TypeConversion();
+        tc.TypeConversionDemo();
+        Console.Write(" Press any key to continue, q to quit\n");
+            if( Console.ReadLine()=="q"){
+           return;}
+
+        //prog 4
+        Encapsulation en=new Encapsulation();
+        en.EncapsulationDemo();
+
+        Console.Write(" Press any key to continue, q to quit\n");
+            if( Console.ReadLine()=="q"){
+           return;}
+
+        //prog 5
+        PassValue pv=new PassValue();
+        pv.PassValueDemo();
+        Console.Write(" Press any key to continue, q to quit\n");
+            if( Console.ReadLine()=="q"){
+           return;}
         
         }
     }
