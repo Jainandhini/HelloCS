@@ -54,9 +54,16 @@ namespace basics
         Console.Write(" Press any key to continue, q to quit\n");
             if( Console.ReadLine()=="q"){
            return;}
-*/
+
          //prog 7
         StructDemo structDemo=new StructDemo();
+        Console.Write(" Press any key to continue, q to quit\n");
+            if( Console.ReadLine()=="q"){
+           return;}
+        }
+*/
+         //prog 8
+        CustomerDemo custDemo=new CustomerDemo();
         Console.Write(" Press any key to continue, q to quit\n");
             if( Console.ReadLine()=="q"){
            return;}
