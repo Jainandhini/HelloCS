@@ -61,9 +61,16 @@ namespace basics
             if( Console.ReadLine()=="q"){
            return;}
         }
-*/
+
          //prog 8
         CustomerDemo custDemo=new CustomerDemo();
+        Console.Write(" Press any key to continue, q to quit\n");
+            if( Console.ReadLine()=="q"){
+           return;}
+        }
+*/
+        //prog 9
+        ExceptionDemo exceptionDemo=new ExceptionDemo();
         Console.Write(" Press any key to continue, q to quit\n");
             if( Console.ReadLine()=="q"){
            return;}
